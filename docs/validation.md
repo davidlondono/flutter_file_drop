@@ -26,7 +26,7 @@ Automated tests cover the Dart bounded-reader overflow and cancellation behavior
 
 | Platform | Manual setup | Result |
 | --- | --- | --- |
-| Android | API 24+ physical device and a current Android device; drag files from Files and another app/provider | Not run |
+| Android | API 24+ physical device and a current Android device; drag files from Files and another app/provider | Issue #15 not run (2026-10-25): macOS 27.0.1, Flutter 3.44.2; `adb devices -l` found no device, Pixel_4 emulator exited with code 1, and Flutter doctor found no valid Android SDK. Files/provider drops and callback-lifetime cleanup remain unverified |
 | iOS | iPad on iOS 13 if available and a current iPad; use Files and another app as sources | Simulator build checked at iOS 15; iOS 13 hardware behavior pending |
 | macOS | macOS 12 and current macOS; drag from Finder and a text source | Build checked locally; hardware behavior pending |
 | Windows | Current supported Windows desktop; drag from Explorer and a text source | Issue #11 not run (2026-10-25): Windows/Explorer unavailable on macOS 27.0.1 with Flutter 3.44.2; DOCX behavior unverified |
