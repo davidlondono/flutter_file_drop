@@ -31,7 +31,7 @@ Automated tests cover the Dart bounded-reader overflow and cancellation behavior
 | macOS | macOS 12 and current macOS; drag from Finder and a text source | Build checked locally; hardware behavior pending |
 | Windows | Current supported Windows desktop; drag from Explorer and a text source | Not run |
 | Linux | GTK 3 desktop under X11 and Wayland where available; drag from a file manager and text source | Not run |
-| Web | Current desktop Chromium and Safari; drag from file manager and browser text/link sources | Not run |
+| Web | Current desktop Chromium and Safari; drag from file manager and browser text/link sources | 2026-10-25: Example app profile build and synthetic `DataTransfer` drop passed on macOS 27.0.1, Chromium 155, Flutter 3.44.2; `profile-smoke.txt` (13 bytes) was read and displayed, and the generated registrant includes the web plugin. External file-manager drag and Safari not run. |
 
 Run the shared checks on each platform. On Android also repeat a multi-file drop from a cloud-backed provider and keep the callback open while reading to verify URI permission lifetime. On iOS include a provider that supports in-place access and one that uses provider staging when available; record that provider staging may copy the complete source before Dart can screen or bound reads. On Web confirm browser cancellation and directory items. Record unsupported source/OS combinations instead of marking them passed.
 
