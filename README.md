@@ -1,5 +1,9 @@
 # flutter_file_drop
 
+[![CI](https://github.com/davidlondono/flutter_file_drop/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/davidlondono/flutter_file_drop/actions/workflows/ci.yml)
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop.svg)](https://pub.dev/packages/flutter_file_drop)
+[![License](https://img.shields.io/github/license/davidlondono/flutter_file_drop)](https://github.com/davidlondono/flutter_file_drop/blob/main/LICENSE)
+
 Federated Flutter plugin for headless file and text drag-and-drop. `DropTarget` wraps an app-owned widget and reports drag lifecycle, metadata, payloads, positions, and per-item validation results.
 
 ## Packages

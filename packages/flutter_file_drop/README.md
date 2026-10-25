@@ -1,5 +1,8 @@
 # flutter_file_drop
 
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop.svg)](https://pub.dev/packages/flutter_file_drop)
+[![Pub Points](https://img.shields.io/pub/points/flutter_file_drop)](https://pub.dev/packages/flutter_file_drop/score)
+
 Headless drag-and-drop for files and text in Flutter. It provides a `DropTarget` wrapper; your app owns all visuals and layout.
 
 ## Features

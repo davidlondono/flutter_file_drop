@@ -1,5 +1,8 @@
 # flutter_file_drop_android
 
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop_android.svg)](https://pub.dev/packages/flutter_file_drop_android)
+[![Pub Points](https://img.shields.io/pub/points/flutter_file_drop_android)](https://pub.dev/packages/flutter_file_drop_android/score)
+
 Android native implementation for [`flutter_file_drop`](https://pub.dev/packages/flutter_file_drop).
 
 Use the façade package in applications. It registers this implementation automatically. Android API 24 or later is required. The plugin reads dropped content through Android content URIs and keeps temporary drag permissions until the awaited drop callback completes.
