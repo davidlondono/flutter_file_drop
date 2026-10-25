@@ -1,5 +1,8 @@
 # flutter_file_drop_platform_interface
 
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop_platform_interface.svg)](https://pub.dev/packages/flutter_file_drop_platform_interface)
+[![Pub Points](https://img.shields.io/pub/points/flutter_file_drop_platform_interface)](https://pub.dev/packages/flutter_file_drop_platform_interface/score)
+
 Internal platform contract shared by the `flutter_file_drop` façade and its platform implementations.
 
 The interface carries ordered drag lifecycle events, per-item metadata or strings, session-scoped file chunk reads, and resource release. It is not the application API. Application code should depend on [`flutter_file_drop`](https://pub.dev/packages/flutter_file_drop).

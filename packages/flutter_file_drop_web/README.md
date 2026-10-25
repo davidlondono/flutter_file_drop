@@ -1,5 +1,8 @@
 # flutter_file_drop_web
 
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop_web.svg)](https://pub.dev/packages/flutter_file_drop_web)
+[![Pub Points](https://img.shields.io/pub/points/flutter_file_drop_web)](https://pub.dev/packages/flutter_file_drop_web/score)
+
 Browser implementation for [`flutter_file_drop`](https://pub.dev/packages/flutter_file_drop).
 
 Use the façade package in applications. Flutter registers this implementation automatically. It listens to browser drag events while a `DropTarget` is mounted and reads dropped files in bounded slices.

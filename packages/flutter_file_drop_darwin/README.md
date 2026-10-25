@@ -1,5 +1,8 @@
 # flutter_file_drop_darwin
 
+[![Pub package](https://img.shields.io/pub/v/flutter_file_drop_darwin.svg)](https://pub.dev/packages/flutter_file_drop_darwin)
+[![Pub Points](https://img.shields.io/pub/points/flutter_file_drop_darwin)](https://pub.dev/packages/flutter_file_drop_darwin/score)
+
 iOS and macOS native implementation for [`flutter_file_drop`](https://pub.dev/packages/flutter_file_drop).
 
 Use the façade package in applications. It registers this implementation automatically. iOS 13 or later and macOS 12 or later are required.
